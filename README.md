@@ -3,14 +3,49 @@
 
 ## 📂 파일 구조
 ```
-community_ayven/
-├── front/                # 프론트엔드 폴더
-│   ├── src/             # 소스 코드 디렉토리
-│   ├── public/          # 정적 파일 디렉토리
-│   └── package.json     # 프로젝트 의존성 파일
-└── back/                 # 백엔드 폴더
-    ├── src/             # 서버 코드 디렉토리
-    └── package.json     # 백엔드 의존성 파일
+front/
+├── controllers/
+│   ├── postController.js
+│   └── userController.js
+├── public/
+│   ├── css/
+│   │   ├── board.css
+│   │   ├── edit_member.css
+│   │   ├── edit_password.css
+│   │   ├── edit_post.css
+│   │   ├── join.css
+│   │   ├── login.css
+│   │   └── post.css
+│   ├── html/
+│   │   ├── add_post.html
+│   │   ├── board.html
+│   │   ├── edit_member.html
+│   │   ├── edit_password.html
+│   │   ├── edit_post.html
+│   │   ├── join.html
+│   │   ├── login.html
+│   │   └── post.html
+│   └── js/
+│       ├── add_post.js
+│       ├── board.js
+│       ├── edit_member.js
+│       ├── edit_password.js
+│       ├── edit_post.js
+│       ├── join.js
+│       ├── login.js
+│       ├── menu.js
+│       └── post.js
+├── routes/
+│   ├── postRouter.js
+│   └── userRouter.js
+├── utils/
+│   ├── csrfToken.js
+│   └── ImageUtils.js
+├── app.js
+├── package-lock.json
+├── package.json
+└── README.md
+
 ```
 
 ## 🚀 시작 방법
